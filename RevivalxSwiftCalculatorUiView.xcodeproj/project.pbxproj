@@ -13,6 +13,7 @@
 		16FA45171B0201AF00A91A55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FA45161B0201AF00A91A55 /* Images.xcassets */; };
 		16FA451A1B0201AF00A91A55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16FA45181B0201AF00A91A55 /* LaunchScreen.xib */; };
 		16FA45261B0201AF00A91A55 /* RevivalxSwiftCalculatorUiViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA45251B0201AF00A91A55 /* RevivalxSwiftCalculatorUiViewTests.swift */; };
+		16FA45321B0202AE00A91A55 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA45311B0202AE00A91A55 /* CalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		16FA451F1B0201AF00A91A55 /* RevivalxSwiftCalculatorUiViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevivalxSwiftCalculatorUiViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FA45241B0201AF00A91A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16FA45251B0201AF00A91A55 /* RevivalxSwiftCalculatorUiViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevivalxSwiftCalculatorUiViewTests.swift; sourceTree = "<group>"; };
+		16FA45311B0202AE00A91A55 /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				16FA450F1B0201AF00A91A55 /* AppDelegate.swift */,
-				16FA45111B0201AF00A91A55 /* ViewController.swift */,
-				16FA45131B0201AF00A91A55 /* Main.storyboard */,
+				16FA45311B0202AE00A91A55 /* CalculatorView.swift */,
 				16FA45161B0201AF00A91A55 /* Images.xcassets */,
 				16FA45181B0201AF00A91A55 /* LaunchScreen.xib */,
+				16FA45131B0201AF00A91A55 /* Main.storyboard */,
 				16FA450D1B0201AF00A91A55 /* Supporting Files */,
+				16FA45111B0201AF00A91A55 /* ViewController.swift */,
 			);
 			path = RevivalxSwiftCalculatorUiView;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16FA45121B0201AF00A91A55 /* ViewController.swift in Sources */,
+				16FA45321B0202AE00A91A55 /* CalculatorView.swift in Sources */,
 				16FA45101B0201AF00A91A55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
